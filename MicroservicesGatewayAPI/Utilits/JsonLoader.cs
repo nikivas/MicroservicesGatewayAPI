@@ -20,7 +20,7 @@ namespace MicroservicesGatewayAPI.Utilits
                 
         }
 
-        public T Deserialize<T>(object json)
+        public static T Deserialize<T>(object json)
         {
             return JsonConvert.DeserializeObject<T>(Convert.ToString(json));
         }
