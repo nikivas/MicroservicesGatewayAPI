@@ -17,6 +17,7 @@ namespace MicroservicesGatewayAPI
         public List<Route> Routes { get; set; }
         public Destination AuthenticationService { get; set; }
 
+        
 
         public Router(string routeConfigFilePath)
         {
